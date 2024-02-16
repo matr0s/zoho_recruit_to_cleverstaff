@@ -1,0 +1,5 @@
+# Ignore all Excel files starting with 'final_candidates_with_notes_' in the root directory
+final_candidates_with_notes_*.xlsx
+
+# Ignore all files in the 'ExportData' directory
+ExportData/*
