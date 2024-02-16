@@ -1,6 +1,6 @@
-# Candidate Data Processing Script
+# ZOHO RECRUIT Candidate Data Processing Script
 
-This Python script processes and combines data from multiple CSV files related to candidates, their notes, and educational details, and exports the consolidated data into an Excel file. It's specifically designed to prepare candidate data for import into systems like Cleverstaff, with customized formatting including HTML tags for line breaks.
+This Python script processes and combines data from multiple CSV files related to candidates, their notes, and educational details, and exports the consolidated data into an Excel file. It's specifically designed to prepare candidate data for import from ZOHO Recruit into systems like Cleverstaff, with customized formatting including HTML tags for line breaks.
 
 ## Features
 
@@ -18,8 +18,8 @@ This Python script processes and combines data from multiple CSV files related t
 
 ## Usage
 
-1. Place your CSV files (`Candidates_001.csv`, `Notes_001.csv`, `Candidates_Educational_Details.csv`) in a directory.
-2. Update the `export_data_folder` variable in the script to point to the directory containing your CSV files.
+1. Place your CSV files (`Candidates_001.csv`, `Notes_001.csv`, `Candidates_Educational_Details.csv`) in a ExportData directory.
+2. Update the `export_data_folder` variable (if necessary) in the script to point to the directory containing your CSV files.
 3. Run the script:
 
 ```
